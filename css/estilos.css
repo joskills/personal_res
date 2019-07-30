@@ -1,0 +1,233 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  background-color: whitesmoke;
+}
+
+h1 {
+  font-size: 1.5625rem;
+  margin: 0 auto;
+  font-family: "Montserrat", cursive;
+  text-align: center;
+}
+h2 {
+  margin: 0 auto;
+  color: #ff935c;
+  font-family: "Montserrat", sans-serif;
+}
+
+h3 {
+  color: #ff935c;
+  font-family: "Montserrat", sans-serif;
+  margin: 0 auto 0 auto;
+}
+/* .banner-top {
+  background-color: #3bb4c1;
+  width: 100%;
+  height: 300px;
+} */
+
+.wrapper {
+  padding: 20px;
+  position: relative;
+  margin: -60px 30px 0;
+}
+.banner-top {
+  position: relative;
+  height: 380px;
+  background-position: top;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  display: flex;
+  align-items: center;
+  background-image: url(../images/1500x500.jpg);
+}
+div.perfil {
+  position: relative;
+  bottom: 30px;
+  margin: 0 auto 100px auto;
+  width: 50%;
+}
+.foto-perfil {
+  margin: 0 auto;
+  max-width: 160px;
+  transform: translate3d(0, -50%, 0);
+}
+.nome {
+  margin-top: -70px;
+}
+
+div.perfil-container {
+  padding: 20px;
+  color: dimgray;
+}
+
+/* Estilo dos icones das redes sociais */
+.social-icons {
+  display: inline;
+}
+a {
+  margin: 10px;
+}
+a.icon-linkedin {
+  color: #04669a;
+}
+a.icon-instagram {
+  color: #2c6a93;
+}
+a.icon-twitter {
+  color: #00b6f1;
+}
+/* Durante o Hover effect */
+a.icon-linkedin:hover {
+  color: darkgrey;
+}
+a.icon-instagram:hover {
+  color: darkgrey;
+}
+a.icon-twitter:hover {
+  color: darkgrey;
+}
+
+.ed-row {
+  width: 50%;
+  margin: 0px auto 20px auto;
+  text-align: center;
+  line-height: 1.5;
+}
+.ed-image-left {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.p-header {
+  padding: 15px;
+}
+.p-desc {
+  text-align: start;
+  padding: 15px;
+  clear: both;
+}
+/* Para brincar um pouco com os containers */
+
+.top-container {
+}
+
+.middle-container {
+  background-color: blue;
+  width: 100px;
+  height: 100px;
+}
+
+.footer-container {
+  background-color: grey;
+  width: 100%;
+  height: 200px;
+  margin-top: 20px;
+}
+
+/* Melhoria da tabela */
+table {
+  font-size: 1.5vw;
+  text-align: left;
+  margin: 50px auto;
+  width: 50%;
+  border-spacing: 0px;
+}
+tr:hover {
+  border: 0px;
+  background-color: whitesmoke;
+}
+td {
+  padding: 7px 30px 15px 25px;
+}
+.stars:hover {
+  font-size: 25px;
+}
+
+/* media queries, habilita o lado responsivo da ppagina */
+
+/* em telas que sao menores ou iguais a 992px, aplica as seguinte modificacoes  */
+@media screen and (max-width: 992px) {
+  div.perfil {
+    position: relative;
+    bottom: 30px;
+    margin: 0 auto 100px auto;
+    width: 80%;
+  }
+
+  .ed-row {
+    width: 80%;
+    margin: 0px auto 20px auto;
+    text-align: center;
+    line-height: 1.5;
+  }
+
+  table {
+    font-size: 1.5vw;
+    text-align: left;
+    margin: 50px auto;
+    width: 80%;
+    border-spacing: 0px;
+  }
+}
+/* em telas que sao menores ou iguais a 600px, aplica as seguinte modificacoes  */
+@media screen and (max-width: 600px) {
+  .wrapper {
+    padding: 20px;
+    position: relative;
+    margin: -60px 10px 0;
+  }
+  div.perfil {
+    position: relative;
+    bottom: 30px;
+    margin: 0 auto 100px auto;
+    width: 100%;
+  }
+
+  div.perfil-container {
+    padding: 0;
+    color: dimgray;
+  }
+
+  .ed-row {
+    width: 100%;
+    margin: 0px auto 20px auto;
+    text-align: center;
+    line-height: 1.5;
+  }  
+  table {
+    font-size: 1.5vw;
+    text-align: left;
+    margin: 50px auto;
+    width: 100%;
+    border-spacing: 0px;
+  }
+}
+
+/* Essas passaram a ser consideradas como minhas classes generalizadas */
+/* Caixa com sombra */
+.cx-sombra {
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/* Bordas Arredondadas */
+.brd-td-arredondadas {
+  border-radius: 100%;
+}
+.brd-td-arredondadas-8 {
+  border-radius: 8px;
+}
+.brd-bdir-besq-arredondadas-5 {
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+/* Alinhar texto ao centro */
+.txt-al-centro {
+  text-align: center;
+}
